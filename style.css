@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: lightseagreen;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile-image {
+    width: 200px;
+}
+
+.profile-name {
+    color: white;
+    font-size: 1.85rem;
+    position: absolute;
+    bottom: 0px;
+}
+
+.about-me {
+    background-color: white;
+    max-width: 500px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+}
+
+.profile-link {
+    position: absolute;
+    right: 40px;
+}
+
+.main {
+    margin: 50px 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.project {
+    min-width: 200px;
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+.project-screenshot {
+    height: 170px;
+    color: white;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.project-describe {
+    padding: 20px;
+    position: relative;
+}
+
+.project-link {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+
+.footer {
+    background-color: lightseagreen;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contact-me {
+    max-width: 300px;
+}
+
+.icon-list {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+}
