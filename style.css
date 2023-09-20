@@ -52,7 +52,7 @@ body {
 
 .projects {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -107,7 +107,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .projects {
-        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
